@@ -14,6 +14,7 @@
     float: right;
     position: fixed;
     top: 0;
+    right: 0
 }
 
 li {
@@ -27,10 +28,23 @@ li {
 
 #Logo {
     display: block;
+    float: center;
     margin-left:auto;
-    margin-right: auto;
+    margin-right: 150px;
+    margin-top: 150px;
+    width: 50%;
+}
+
+#Search-Box {
+    float: center;
+    margin-left:auto;
+    margin-right: 30px;
     margin-top: auto;
     width: 50%;
+}
+
+.bottom-nav {
+    background-color: black;
 }
 
 #Left-footer {
@@ -38,17 +52,25 @@ li {
     margin: 0;
     padding: 0;
     float: left;
+    position: fixed;
+    bottom: 0;
 }
 
-#Centre-feature {
+#carbon-text {
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding-left: 45%;
+    float: center;
+    position: fixed;
+    bottom: 0;
 }
 
 #leaf-img {
-    padding-left: 24%;
+    padding-left: 43%;
     padding-right: 0px;
+    float: center;
+    position: fixed;
+    bottom: 0;
 }
 
 #carbon-text {
@@ -60,4 +82,12 @@ li {
     margin: 0;
     padding: 0;
     float: right;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
 }
